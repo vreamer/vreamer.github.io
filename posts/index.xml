@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yifeng&#39;s Blog</title>
+    <link>https://vreamer.github.io/posts/</link>
+    <description>Recent content in Posts on Yifeng&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jul 2020 13:37:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://vreamer.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Glat boost learning and collaboration efficiency</title>
+      <link>https://vreamer.github.io/posts/glat-boost-efficiency/</link>
+      <pubDate>Sat, 11 Jul 2020 13:37:51 +0800</pubDate>
+      
+      <guid>https://vreamer.github.io/posts/glat-boost-efficiency/</guid>
+      <description>This is the content</description>
+    </item>
+    
+  </channel>
+</rss>
