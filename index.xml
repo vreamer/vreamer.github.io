@@ -6,10 +6,22 @@
     <description>Recent content on vreamer.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Jul 2020 13:37:51 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2020 12:23:51 +0800</lastBuildDate>
     
     <atom:link href="https://vreamer.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Software Engineer and Frameworks</title>
+      <link>https://vreamer.github.io/posts/software-engineer-and-frameworks/</link>
+      <pubDate>Wed, 15 Jul 2020 12:23:51 +0800</pubDate>
+      
+      <guid>https://vreamer.github.io/posts/software-engineer-and-frameworks/</guid>
+      <description>
+      
+      今天有一个好朋友问我，程序员的工作是不是就是不停学习各种framework。这个问题很有意思，回顾自己这几年的程序猿生涯，确实大部分时间都在学习新的framework。不过我心中觉得程序员的使命是超脱于学习各种framework的。以下就是...
+      
+      </description>
+    </item>
     <item>
       <title>Glat boost learning and collaboration efficiency</title>
       <link>https://vreamer.github.io/posts/glat-boost-efficiency/</link>
