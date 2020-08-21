@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice | vreamer</copyright>
-    <lastBuildDate>Sat, 25 Jul 2020 13:37:51 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2020 14:06:37 +0800</lastBuildDate>
     
     <atom:link href="https://vreamer.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Use Bluestacks 4 to run Android apps with Flutter on Mac</title>
+      <link>https://vreamer.github.io/posts/bluestacks-4-android-flutter/</link>
+      <pubDate>Fri, 21 Aug 2020 14:06:37 +0800</pubDate>
+      
+      <guid>https://vreamer.github.io/posts/bluestacks-4-android-flutter/</guid>
+      <description>
+      
+      Why I wanted to switch to Bluestacks 4 I started off using Android Emulators from Android Virtual Device (AVD) Manager. ...
+      
+      </description>
+    </item>
     <item>
       <title>Glat for sharing</title>
       <link>https://vreamer.github.io/posts/glat-boost-efficiency/</link>
