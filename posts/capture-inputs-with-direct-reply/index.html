@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+  <meta name="generator" content="Hugo 0.73.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta property="og:title" content="Capture Input with Direct Reply Notification in Android with Flutter" />
+<meta property="og:description" content="What is Direct Reply Notification? Direct reply is a notification action. It enables users to directly enter text into the notification. Meanwhile, the app stays in the background. Usually, you would encounter direct reply when using messaging apps like Whatsapp.
+TODO: add gif of direct reply here
+Why did I want it? I was not building a messaging app, but the idea of capturing input from notification without opening the app appeals to me." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vreamer.github.io/posts/capture-inputs-with-direct-reply/" />
+<meta property="article:published_time" content="2020-08-24T12:43:42+08:00" />
+<meta property="article:modified_time" content="2020-08-24T12:43:42+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Capture Input with Direct Reply Notification in Android with Flutter"/>
+<meta name="twitter:description" content="What is Direct Reply Notification? Direct reply is a notification action. It enables users to directly enter text into the notification. Meanwhile, the app stays in the background. Usually, you would encounter direct reply when using messaging apps like Whatsapp.
+TODO: add gif of direct reply here
+Why did I want it? I was not building a messaging app, but the idea of capturing input from notification without opening the app appeals to me."/>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="https://vreamer.github.io/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://vreamer.github.io/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://vreamer.github.io/css/all.css" />
+<title>Capture Input with Direct Reply Notification in Android with Flutter | Yifeng&#39;s Blog</title></head>
+<body><header>
+
+  <div id="avatar">
+    <a href="https://vreamer.github.io/">
+      <img src="/img/avatar-koala.jpg" alt="Yifeng&#39;s Blog">
+    </a>
+  </div>
+
+  <div id="titletext"><h2 id="title"><a href="https://vreamer.github.io/">Yifeng&#39;s Blog</a></h2></div>
+  <div id="title-description"><p id="subtitle">Yifeng is a software and koala enthusiast. Why? Because Yifeng wants to develop software while still have the same sleep quality as a koala.</p><div id=social>
+    <nav>
+      <ul></ul>
+    </nav>
+  </div>
+  </div>
+  <div id="mainmenu">
+    <nav>
+      <ul>
+        
+        <li><a href="/">Home</a></li>
+        
+        <li><a href="/posts">All Posts</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+<main><div class="post">
+<div class="author">
+
+</div>
+<div class="post-header">
+
+<div class="meta">
+
+<div class="date">
+<span class="day">24</span>
+<span class="rest">Aug 2020</span>
+</div>
+
+</div>
+
+<div class="matter">
+<h1 class="title">Capture Input with Direct Reply Notification in Android with Flutter</h1>
+</div>
+</div>
+<div class="markdown">
+<h3 id="what-is-direct-reply-notification">What is Direct Reply Notification?</h3>
+<p><a href="https://developer.android.com/training/notify-user/build-notification#reply-action">Direct reply</a> is a notification action. It enables users to directly enter text into the notification. Meanwhile, the app stays in the background. Usually, you would encounter direct reply when using messaging apps like Whatsapp.</p>
+<p>TODO: add gif of direct reply here</p>
+<h3 id="why-did-i-want-it">Why did I want it?</h3>
+<p>I was not building a messaging app, but the idea of capturing input from notification without opening the app appeals to me. I was building an app to capture ideas quickly with minimum interruption to my workflow.</p>
+<p>Think of this scenario, when you form an interesting idea while reading. You want to capture that idea quickly without breaking the current reading flow. Normally, you would write it down on a paper nearby or open another app to take notes.</p>
+<p>I used to take notes like that. But after the thousandth time of losing that piece of paper or getting distracted while opening another app. I decide to build an app that will capture my idea from the notification. So I can simply swipe down, type my idea, swipe up and move on.</p>
+<h3 id="flutter-notification-alternatives">Flutter Notification Alternatives</h3>
+<ul>
+<li>Local Notifcation</li>
+<li>Firebase Messaging</li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li>Flutter (version)</li>
+</ul>
+<h3 id="lets-build-it-together">Let&rsquo;s Build It Together</h3>
+<p>create app
+<code>flutter create direct_reply_notification</code></p>
+<h4 id="android-land">Android Land</h4>
+<p>Now we enter the Android Land to show our direct reply notifications.</p>
+<ol>
+<li>Create a notification channel</li>
+</ol>
+<p>A channel is required for all notification after Android 8.0 (Oreo, API level 26). For more details, click <a href="https://developer.android.com/training/notify-user/channels">here</a></p>
+<p>Create a <code>NotificationHelper.kt</code> next to <code>MainActivity.kt</code>. We will use <code>NotificationHelper.kt</code> to create channel and show notifications.</p>
+<p>TODO: add create channel gist</p>
+<ol start="2">
+<li>
+<p>Show  notification</p>
+</li>
+<li>
+<p>Handle user input</p>
+</li>
+<li>
+<p>Refresh notification</p>
+</li>
+</ol>
+<h3 id="minor-changes">Minor changes</h3>
+<ul>
+<li>notification title</li>
+</ul>
+<p>References:
+<a href="https://youtu.be/DsFYPTnCbs8">Notifications Tutorial Part 5 - MESSAGING STYLE + DIRECT REPLY - Android Studio Tutorial</a></p>
+
+</div>
+<div class="tags">
+
+
+
+
+
+
+
+
+
+</div></div>
+
+</main><footer>
+ © Copyright notice | <a href="https://github.com/vreamer/vreamer.github.io">vreamer</a> 
+
+
+    
+
+</footer>
+</body>
+</html>
